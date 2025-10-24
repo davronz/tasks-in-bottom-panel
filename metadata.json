@@ -1,0 +1,15 @@
+{
+  "name": "Tasks in Bottom Panel",
+  "description": "Minimalist taskbar showing running applications on the active workspace, with panel moved to bottom. Lag-free and respects GNOME Shell style.\n\nFeatures:\n• Shows window icons on active workspace\n• Highlights window demanding attention\n• Scroll on panel to change workspace\n• Hover to raise window\n• Click to activate/minimize\n• Right click for app menu\n• Middle click for new window\n• Bottom panel positioning",
+  "uuid": "tasks-in-bottom-panel@davron",
+  "url": "https://github.com/davronz/tasks-in-bottom-panel",
+  "donations": {},
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "version": 1,
+  "url": "https://github.com/davronz/tasks-in-bottom-panel"
+}
