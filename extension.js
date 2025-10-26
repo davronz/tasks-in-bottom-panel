@@ -291,7 +291,6 @@ export default class TasksBottomPanelExtension extends Extension {
             let topX = (monitorInfo) ? monitorInfo.x : 0;
             let topY = (monitorInfo) ? monitorInfo.y : 0;
             panelBox.set_position(topX, topY);
-            this._UIStyleClassRemove('just-perfection-api-bottom-panel');
             this._fixPanelMenuSide(St.Side.TOP);
             return;
         }
@@ -303,7 +302,6 @@ export default class TasksBottomPanelExtension extends Extension {
             let BottomY = monitorInfo.y + monitorInfo.height - Main.panel.height;
 
             panelBox.set_position(BottomX, BottomY);
-            this._UIStyleClassAdd('just-perfection-api-bottom-panel');
         }
 
         if (!this._workareasChangedSignal) {
@@ -374,14 +372,6 @@ export default class TasksBottomPanelExtension extends Extension {
                 menu._boxPointer._userArrowSide = position;
             }
         };
-    }
-
-    _UIStyleClassAdd(classname) {
-        Main.layoutManager.uiGroup.add_style_class_name(classname);
-    }
-
-    _UIStyleClassRemove(classname) {
-        Main.layoutManager.uiGroup.remove_style_class_name(classname);
     }
     
     disable() {
