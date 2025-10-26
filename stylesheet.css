@@ -1,20 +1,11 @@
-/* Tasks in Bottom Panel Stylesheet */
-/* Combines Just Perfection bottom panel styling with Tasks in Panel task button styles */
-
-/* Panel at bottom styling - from Just Perfection */
-.just-perfection-api-bottom-panel #overview {
+#overview {
     margin-bottom: 24px;
 }
 
-.just-perfection-api-bottom-panel .popup-menu.panel-menu {
+.popup-menu.panel-menu {
     margin-bottom: 0;
 }
 
-.just-perfection-api-bottom-panel.just-perfection-api-no-panel #overview {
-    margin-bottom: 0;
-}
-
-/* Task button styles - from Tasks in Panel */
 .task-button {
     margin: 0px;
     transition-duration: 150ms;
